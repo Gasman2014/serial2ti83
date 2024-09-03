@@ -1,3 +1,5 @@
+#define SERIAL_TX_BUFFER_SIZE 256
+#define SERIAL_RX_BUFFER_SIZE 256
 const int TIP = 2; //arduino port where the tip of the stereo jack plug is connected
 const int RING = 3; //arduino port where the middle part of the stereo jack plug is connected
 const unsigned long TXTIMEOUT = 50; //ms
